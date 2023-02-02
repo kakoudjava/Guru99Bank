@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo.SeleniumGuru99Bank">
+    <test name="setUp">
+        <parameter name="browserName" value="Firefox"/>
+        <parameter name="url" value="http://www.demo.guru99.com/V4/"/>
+        <parameter name="login" value="mngr475512"/>
+        <parameter name="password" value="jApAnYn"/>
+        <classes>
+            <class name="Demo.SeleniumGuru99Bank">
+                <methods>
+                    <include name="loginSession"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
